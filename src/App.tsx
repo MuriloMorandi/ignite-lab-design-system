@@ -39,7 +39,7 @@ export function App() {
 				</label>
 
 				<label htmlFor="email" className="flex flex-col gap-3">
-					<Text className="font-semibold">Endereço de E-mail</Text>
+					<Text className="font-semibold">Senha</Text>
 					<TextInput.Root>
 						<TextInput.InputIcon>
 							<Lock />
