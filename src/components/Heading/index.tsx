@@ -6,8 +6,14 @@ export interface HeadingProps {
 	asChild?: boolean;
 	children: ReactNode;
 	size?: "sm" | "md" | "lg";
+	className?: string;
 }
-export function Heading({ asChild, children, size = "md" }: HeadingProps) {
+export function Heading({
+	asChild,
+	children,
+	className,
+	size = "md",
+}: HeadingProps) {
 	const Comp = asChild ? Slot : "h2";
 
 	return (
